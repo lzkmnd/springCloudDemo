@@ -13,13 +13,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f33b624-a156-4ae2-9208-6a7b2b0b2ab2" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="2f33b624-a156-4ae2-9208-6a7b2b0b2ab2" name="默认的" comment="user">
+      <change afterPath="$PROJECT_DIR$/springcloud_alibaba_parent/springcloud_alibaba_gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_alibaba_parent/springcloud_alibaba_gateway/src/main/java/com/example/springcloud_alibaba_users/GatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_alibaba_parent/springcloud_alibaba_gateway/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud_alibaba_parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud_alibaba_parent/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud_alibaba_parent/springcloud_alibaba_parent.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud_alibaba_parent/springcloud_alibaba_parent.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud_alibaba_parent/springcloud_alibaba_users/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud_alibaba_parent/springcloud_alibaba_users/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud_alibaba_parent/springcloud_alibaba_users/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud_alibaba_parent/springcloud_alibaba_users/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,22 +48,30 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="项目" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/springcloud_alibaba_parent/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/springcloud_alibaba_parent/springcloud_alibaba_users" />
+    <property name="project.structure.last.edited" value="模块" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="build.tools" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\kkstudy\springCloudDemo\springcloud_alibaba_parent\springcloud_alibaba_users" />
+      <recent name="D:\kkstudy\springCloudDemo\springcloud_alibaba_parent\src\main" />
+      <recent name="D:\kkstudy\springCloudDemo\springcloud_alibaba_parent" />
+      <recent name="D:\kkstudy\springCloudDemo\springcloud_alibaba_parent\springcloud_alibaba_gateway" />
       <recent name="D:\kkstudy\springCloudDemo" />
-      <recent name="D:\kkstudy\springCloudDemo\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\kkstudy\springCloudDemo\springcloud_alibaba_parent\src\main\java" />
       <recent name="D:\kkstudy\springCloudDemo\src\main\resource" />
       <recent name="D:\kkstudy\springCloudDemo\src\main" />
     </key>
@@ -91,6 +103,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springcloud_alibaba_gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.springcloud_alibaba_users.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springcloud_alibaba_users.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="springcloud_alibaba_users" />
       <extension name="coverage">
@@ -107,6 +132,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.UserApplication" />
+        <item itemvalue="Spring Boot.GatewayApplication" />
         <item itemvalue="应用程序.UserApplication" />
       </list>
     </recent_temporary>
@@ -122,8 +148,16 @@
       <workItem from="1670851558669" duration="1907000" />
       <workItem from="1670853560781" duration="66000" />
       <workItem from="1670855862703" duration="1083000" />
-      <workItem from="1670857307861" duration="356000" />
+      <workItem from="1670857307861" duration="1878000" />
     </task>
+    <task id="LOCAL-00001" summary="user">
+      <created>1670857904660</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670857904660</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,6 +174,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="user" />
+    <option name="LAST_COMMIT_MESSAGE" value="user" />
   </component>
   <component name="WindowStateProjectService">
     <state x="479" y="211" width="1089" height="739" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1670853310631">
@@ -162,10 +200,46 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="755" y="303" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/2560.380.1493.900/0.0.2048.1112@0.0.2048.1112" timestamp="1670857643169" />
+    <state x="505" y="131" key="#项目结构" timestamp="1670858959347">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="505" y="131" key="#项目结构/2560.380.1493.900/0.0.2048.1112@0.0.2048.1112" timestamp="1670858959347" />
     <state x="804" y="297" key="FileChooserDialogImpl" timestamp="1670855928960">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="804" y="297" key="FileChooserDialogImpl/2560.380.1493.900/0.0.2048.1112@0.0.2048.1112" timestamp="1670855928960" />
+    <state width="2005" height="298" key="GridCell.Tab.0.bottom" timestamp="1670859301917">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="298" key="GridCell.Tab.0.bottom/2560.380.1493.900/0.0.2048.1112@0.0.2048.1112" timestamp="1670859301917" />
+    <state width="2005" height="298" key="GridCell.Tab.0.center" timestamp="1670859301917">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="298" key="GridCell.Tab.0.center/2560.380.1493.900/0.0.2048.1112@0.0.2048.1112" timestamp="1670859301917" />
+    <state width="2005" height="298" key="GridCell.Tab.0.left" timestamp="1670859301917">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="298" key="GridCell.Tab.0.left/2560.380.1493.900/0.0.2048.1112@0.0.2048.1112" timestamp="1670859301917" />
+    <state width="2005" height="298" key="GridCell.Tab.0.right" timestamp="1670859301917">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="298" key="GridCell.Tab.0.right/2560.380.1493.900/0.0.2048.1112@0.0.2048.1112" timestamp="1670859301917" />
+    <state width="2005" height="298" key="GridCell.Tab.1.bottom" timestamp="1670859301917">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="298" key="GridCell.Tab.1.bottom/2560.380.1493.900/0.0.2048.1112@0.0.2048.1112" timestamp="1670859301917" />
+    <state width="2005" height="298" key="GridCell.Tab.1.center" timestamp="1670859301917">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="298" key="GridCell.Tab.1.center/2560.380.1493.900/0.0.2048.1112@0.0.2048.1112" timestamp="1670859301917" />
+    <state width="2005" height="298" key="GridCell.Tab.1.left" timestamp="1670859301917">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="298" key="GridCell.Tab.1.left/2560.380.1493.900/0.0.2048.1112@0.0.2048.1112" timestamp="1670859301917" />
+    <state width="2005" height="298" key="GridCell.Tab.1.right" timestamp="1670859301917">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="298" key="GridCell.Tab.1.right/2560.380.1493.900/0.0.2048.1112@0.0.2048.1112" timestamp="1670859301917" />
     <state x="555" y="211" key="Maven.ArtifactSearchDialog" timestamp="1670852986081">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -174,10 +248,14 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="505" y="131" key="SettingsEditor/2560.380.1493.900/0.0.2048.1112@0.0.2048.1112" timestamp="1670853002952" />
-    <state x="821" y="334" key="chooseDestDirectoryDialog" timestamp="1670852224439">
+    <state x="617" y="289" key="Vcs.Push.Dialog.v2" timestamp="1670857906706">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="821" y="334" key="chooseDestDirectoryDialog/2560.380.1493.900/0.0.2048.1112@0.0.2048.1112" timestamp="1670852224439" />
+    <state x="617" y="289" key="Vcs.Push.Dialog.v2/2560.380.1493.900/0.0.2048.1112@0.0.2048.1112" timestamp="1670857906706" />
+    <state x="821" y="334" key="chooseDestDirectoryDialog" timestamp="1670859086855">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="821" y="334" key="chooseDestDirectoryDialog/2560.380.1493.900/0.0.2048.1112@0.0.2048.1112" timestamp="1670859086855" />
     <state x="578" y="166" key="new project wizard" timestamp="1670857619749">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>

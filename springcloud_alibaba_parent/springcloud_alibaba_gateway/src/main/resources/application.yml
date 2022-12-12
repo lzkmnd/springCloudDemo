@@ -1,0 +1,22 @@
+server:
+  port: 8883
+
+spring:
+  application:
+    name: GATEWAY
+
+  cloud:
+    nacos:
+      server-addr: 106.15.5.109:8848
+
+    gateway:
+      routes:
+        - id: users_route
+          uri: lb://USERS
+          predicates:
+            - Path=/user/invoke
+
+        - id: product_route
+          uri: lb://PRODUCTS
+          predicates:
+            - Path=/product/port

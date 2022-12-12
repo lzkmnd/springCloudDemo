@@ -8,11 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="springcloud-parent" />
         <module name="springcloud_alibaba_users" />
+        <module name="springcloud_alibaba_gateway" />
         <module name="springcloud_alibaba_parent" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="springcloud-parent" target="8" />
+      <module name="springcloud_alibaba_gateway" target="8" />
       <module name="springcloud_alibaba_parent" target="8" />
       <module name="springcloud_alibaba_users" target="8" />
       <module name="user" target="8" />
@@ -21,6 +23,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="springcloud-parent" options="-parameters" />
+      <module name="springcloud_alibaba_gateway" options="-parameters" />
       <module name="springcloud_alibaba_parent" options="-parameters" />
       <module name="springcloud_alibaba_users" options="-parameters" />
       <module name="user" options="-parameters" />
