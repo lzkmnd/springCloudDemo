@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/springCloudDemo.iml" filepath="$PROJECT_DIR$/springCloudDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud_alibaba_parent/springcloud_alibaba_parent.iml" filepath="$PROJECT_DIR$/springcloud_alibaba_parent/springcloud_alibaba_parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud_alibaba_parent/springcloud_alibaba_users/springcloud_alibaba_users.iml" filepath="$PROJECT_DIR$/springcloud_alibaba_parent/springcloud_alibaba_users/springcloud_alibaba_users.iml" />
     </modules>
   </component>
 </project>

@@ -13,7 +13,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f33b624-a156-4ae2-9208-6a7b2b0b2ab2" name="默认的" comment="" />
+    <list default="true" id="2f33b624-a156-4ae2-9208-6a7b2b0b2ab2" name="默认的" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud_alibaba_parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud_alibaba_parent/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud_alibaba_parent/springcloud_alibaba_parent.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud_alibaba_parent/springcloud_alibaba_parent.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,22 +48,23 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="项目" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="build.tools" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\kkstudy\springCloudDemo" />
+      <recent name="D:\kkstudy\springCloudDemo\src" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\kkstudy\springCloudDemo\src\main\resource" />
       <recent name="D:\kkstudy\springCloudDemo\src\main" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\kkstudy\springCloudDemo\src" />
-    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.UserApplication">
     <configuration name="UserApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.com.lzk.user.UserApplication" />
       <module name="springCloudDemo" />
@@ -70,19 +78,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springcloud_alibaba_users" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.springcloud_alibaba_users.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springcloud_alibaba_users.UserApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.UserApplication" />
         <item itemvalue="应用程序.UserApplication" />
       </list>
     </recent_temporary>
@@ -97,7 +121,8 @@
       <updated>1670851557458</updated>
       <workItem from="1670851558669" duration="1907000" />
       <workItem from="1670853560781" duration="66000" />
-      <workItem from="1670855862703" duration="332000" />
+      <workItem from="1670855862703" duration="1083000" />
+      <workItem from="1670857307861" duration="356000" />
     </task>
     <servers />
   </component>
@@ -133,6 +158,10 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="718" y="469" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/2560.380.1493.900/0.0.2048.1112@0.0.2048.1112" timestamp="1670852291682" />
+    <state x="755" y="303" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1670857643169">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="755" y="303" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/2560.380.1493.900/0.0.2048.1112@0.0.2048.1112" timestamp="1670857643169" />
     <state x="804" y="297" key="FileChooserDialogImpl" timestamp="1670855928960">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -149,9 +178,9 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="821" y="334" key="chooseDestDirectoryDialog/2560.380.1493.900/0.0.2048.1112@0.0.2048.1112" timestamp="1670852224439" />
-    <state x="578" y="166" key="new project wizard" timestamp="1670856189140">
+    <state x="578" y="166" key="new project wizard" timestamp="1670857619749">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="578" y="166" key="new project wizard/2560.380.1493.900/0.0.2048.1112@0.0.2048.1112" timestamp="1670856189140" />
+    <state x="578" y="166" key="new project wizard/2560.380.1493.900/0.0.2048.1112@0.0.2048.1112" timestamp="1670857619749" />
   </component>
 </project>
