@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/springCloudDemo.iml" filepath="$PROJECT_DIR$/springCloudDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud_alibaba_parent/springcloud_alibaba_parent.iml" filepath="$PROJECT_DIR$/springcloud_alibaba_parent/springcloud_alibaba_parent.iml" />
+    </modules>
+  </component>
+</project>

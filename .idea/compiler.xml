@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springcloud-parent" />
+        <module name="springcloud_alibaba_parent" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springcloud-parent" target="8" />
+      <module name="springcloud_alibaba_parent" target="1.5" />
+      <module name="springcloud_alibaba_users" target="8" />
+      <module name="user" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springcloud-parent" options="-parameters" />
+      <module name="springcloud_alibaba_parent" options="" />
+      <module name="springcloud_alibaba_users" options="-parameters" />
+      <module name="user" options="-parameters" />
+    </option>
+  </component>
+</project>
