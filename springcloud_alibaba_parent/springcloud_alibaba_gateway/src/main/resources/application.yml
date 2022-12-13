@@ -1,9 +1,6 @@
-server:
-  port: 8883
-
 spring:
   application:
-    name: GATEWAY
+    name: gateway
 
   cloud:
     nacos:
@@ -12,11 +9,7 @@ spring:
     gateway:
       routes:
         - id: users_route
-          uri: lb://USERS
+#          uri: http://localhost:8888
+          uri: lb://user
           predicates:
-            - Path=/user/invoke
-
-        - id: product_route
-          uri: lb://PRODUCTS
-          predicates:
-            - Path=/product/port
+            - Method=GET #只能时 GET 请求时，才能访问

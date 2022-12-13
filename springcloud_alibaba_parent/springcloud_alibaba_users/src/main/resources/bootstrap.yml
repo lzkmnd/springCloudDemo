@@ -1,0 +1,12 @@
+spring:
+  profiles:
+    active: dev
+  application:
+    name: user #服务名
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 106.15.5.109:8848 #Nacos服务注册中心地址
+      config:
+        server-addr: 106.15.5.109:8848 #Nacos作为配置中心地址
+        file-extension: yaml #指定yaml格式的配置
