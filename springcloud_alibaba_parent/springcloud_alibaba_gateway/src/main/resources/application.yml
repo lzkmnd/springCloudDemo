@@ -12,4 +12,4 @@ spring:
 #          uri: http://localhost:8888
           uri: lb://user
           predicates:
-            - Method=GET #只能时 GET 请求时，才能访问
+            - Path=/user/**

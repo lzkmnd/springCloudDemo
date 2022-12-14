@@ -1,10 +1,15 @@
-package com.example.gateway.utils;
+package com.example.users.util;
 
-
-import com.example.gateway.model.TokenInfo;
+import com.auth0.jwt.JWT;
+import com.auth0.jwt.algorithms.Algorithm;
+import com.auth0.jwt.interfaces.DecodedJWT;
+import com.example.users.model.TokenInfo;
 import io.jsonwebtoken.*;
 
+import java.util.Calendar;
 import java.util.Date;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * @author liam
