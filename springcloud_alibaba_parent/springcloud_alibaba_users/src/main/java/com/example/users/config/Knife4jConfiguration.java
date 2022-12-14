@@ -28,7 +28,7 @@ public class Knife4jConfiguration {
                 .groupName("用户服务")
                 .select()
                 //这里指定Controller扫描包路径
-                .apis(RequestHandlerSelectors.basePackage("com.github.xiaoymin.knife4j.controller"))
+                .apis(RequestHandlerSelectors.basePackage("com.example.users.api"))
                 .paths(PathSelectors.any())
                 .build();
         return docket;
